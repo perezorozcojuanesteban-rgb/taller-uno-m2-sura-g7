@@ -171,3 +171,24 @@ mazo.reverse()
 mazo.shift()
 
 console.log(mazo);
+
+
+/*  ### Ejercicio 7: Gestión de Asientos de Cine
+
+Inicias con el estado de una fila de asientos:
+`let asientos = ["Ocupado", "Libre", "Libre", "Libre", "Ocupado"];`
+
+**Tareas:**
+1.  Las tres personas en los asientos "Libre" (posiciones 1, 2 y 3) deben moverse. Cambia esos tres asientos a "Reservado".
+    (Pista: `fill` puede usar un índice de inicio y fin).
+
+---
+   */
+
+let asientos = ["Ocupado", "Libre", "Libre", "Libre", "Ocupado"];
+
+// Cambiar asientos libres a reservados
+
+asientos.fill("Reservado", 1, 4)
+
+console.log(asientos);
