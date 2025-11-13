@@ -462,3 +462,28 @@ feed.unshift("Alerta de sistemas")
 feed.pop()
 
 console.log(feed);
+
+
+/*    ### Ejercicio 18: Lista de Invitados VIP
+
+Inicias con una lista de invitados:
+`let invitados = ["Carlos", "Beatriz", "David", "Ana"];`
+
+**Tareas:**
+1.  Ordena la lista alfabéticamente.
+2.  "Beatriz" (ahora en posición 1) cancela. Elimínala.
+
+---   */
+
+let invitados = ["Carlos", "Beatriz", "David", "Ana"];
+
+// Ordenar lista alfabeticamente
+
+invitados.sort()
+
+// Eliminar a Beatriz
+
+invitados.splice(1, 1)
+
+
+console.log(invitados);
