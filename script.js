@@ -145,3 +145,29 @@ fila.splice(1, 0, "Jorge")
 
 
 console.log(fila);
+
+
+
+/*  ### Ejercicio 6: Mazo de Cartas
+
+Inicias con un pequeño mazo:
+`let mazo = ["As", "Rey", "Reina", "Jota"];`
+
+**Tareas:**
+1.  Barajas el mazo invirtiendo el orden de las cartas.
+2.  Sacas la carta de arriba (el primer elemento).
+
+---
+   */
+
+let mazo = ["As", "Rey", "Reina", "Jota"];
+
+// Invertir el orden de la lista
+
+mazo.reverse()
+
+// Sacar primer elemento
+
+mazo.shift()
+
+console.log(mazo);
