@@ -377,3 +377,33 @@ palabras.splice(0, 1, "Tres")
 
 
 console.log(palabras);
+
+
+
+
+
+/*  ### Ejercicio 15: Equipo de Proyecto
+
+Inicias con un equipo:
+`let equipo = ["Ana (Líder)", "Juan (Dev)", "Maria (Diseñadora)"];`
+
+**Tareas:**
+1.  "Juan (Dev)" (posición 1) renuncia. Elimínalo.
+2.  Se contratan dos nuevos desarrolladores: "Pedro (Dev)" y "Luisa (Dev)". Añádelos al **FINAL**.
+
+---
+ */
+
+
+let equipo = ["Ana (Líder)", "Juan (Dev)", "Maria (Diseñadora)"];
+
+// Eliminar a juan dev
+
+equipo.splice(1, 1)
+
+// Añadir al final a pedro y a luisa
+
+equipo.push("Luisa (Dev)", "Pedro ()Dev")
+
+
+console.log(equipo);
