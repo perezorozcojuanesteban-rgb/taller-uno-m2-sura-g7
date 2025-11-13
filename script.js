@@ -215,3 +215,25 @@ let productos = ["Monitor", "Teclado", "Mouse Roto", "Webcam"];
 productos.splice(2, 1, "Mouse nuevo")
 
 console.log(productos);
+
+
+
+
+/*   ### Ejercicio 9: Orden Alfabético (Sort)
+
+Inicias con una lista de estudiantes desordenada:
+`let estudiantes = ["Zapata", "Alvarez", "Gomez", "Bernal"];`
+
+**Tareas:**
+1.  Ordena la lista de estudiantes alfabéticamente.
+
+---
+   */
+
+let estudiantes = ["Zapata", "Alvarez", "Gomez", "Bernal"];
+
+// Ordenar alfabeticamente
+
+estudiantes.sort()
+
+console.log(estudiantes);
