@@ -321,3 +321,31 @@ commits.pop()
 commits.push("v1.2-corregido")
 
 console.log(commits);
+
+
+
+
+/*  ### Ejercicio 13: Receta de Cocina
+
+Inicias con los pasos de una receta:
+`let receta = ["Paso 2: Mezclar ingredientes", "Paso 3: Hornear"];`
+
+**Tareas:**
+1.  Olvidaste el primer paso. Añade "Paso 1: Pre-calentar horno" al **INICIO**.
+2.  Olvidaste el último paso. Añade "Paso 4: Servir" al **FINAL**.
+
+---
+
+   */
+
+let receta = ["Paso 2: Mezclar ingredientes", "Paso 3: Hornear"];
+
+// Añadir el paso uno "pre-calentar horno al inicio"
+
+receta.unshift("Paso 1: Pre-calentar horno")
+
+// Añadir ultimo paso "servir" al final
+
+receta.push("Paso 4: Servir")
+
+console.log(receta);
