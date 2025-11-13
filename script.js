@@ -237,3 +237,25 @@ let estudiantes = ["Zapata", "Alvarez", "Gomez", "Bernal"];
 estudiantes.sort()
 
 console.log(estudiantes);
+
+
+
+
+/*   ### Ejercicio 10: Vaciar un Arreglo (Fill)
+
+Inicias con una lista de puntuaciones:
+`let puntuaciones = [100, 85, 92, 78];`
+
+**Tareas:**
+1.  El juego se resetea. Cambia **TODOS** los elementos del arreglo a `0` usando `fill`.
+
+---
+   */
+
+let puntuaciones = [100, 85, 92, 78];
+
+// Cambiar puntuacion a cero
+
+puntuaciones.fill(0)
+
+console.log(puntuaciones);
