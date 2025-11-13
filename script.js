@@ -192,3 +192,26 @@ let asientos = ["Ocupado", "Libre", "Libre", "Libre", "Ocupado"];
 asientos.fill("Reservado", 1, 4)
 
 console.log(asientos);
+
+
+
+
+
+/*  ### Ejercicio 8: Reemplazar Elemento
+
+Inicias con una lista de productos:
+`let productos = ["Monitor", "Teclado", "Mouse Roto", "Webcam"];`
+
+**Tareas:**
+1.  El "Mouse Roto" (posición 2) debe ser reemplazado. Cámbialo por "Mouse Nuevo" usando `splice`.
+
+---
+   */
+
+let productos = ["Monitor", "Teclado", "Mouse Roto", "Webcam"];
+
+// Reemplazar mause roto con uno nuevo (splice)
+
+productos.splice(2, 1, "Mouse nuevo")
+
+console.log(productos);
