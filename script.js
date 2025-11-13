@@ -487,3 +487,25 @@ invitados.splice(1, 1)
 
 
 console.log(invitados);
+
+
+
+
+/*   ### Ejercicio 19: Tablero de Juego (Fill)
+
+Inicias con un tablero simple:
+`let tablero = ["Inicio", null, null, null, null, "Fin"];`
+
+**Tareas:**
+1.  Rellena todas las casillas nulas (de la 1 a la 4) con el valor "Casilla Vacía".
+
+---   */
+
+let tablero = ["Inicio", null, null, null, null, "Fin"];
+
+// Rellenar todas las null con el valor casilla vacia
+
+tablero.fill("Vacia", 1, 5)
+
+
+console.log(tablero);
