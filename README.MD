@@ -160,12 +160,12 @@ Inicias con los pasos de una receta:
 
 ---
 
-### Ejercicio 14: Invertir y Reemplazar
+## Ejercicio 14: Invertir y Reemplazar
 
 Inicias con una lista de palabras:
 `let palabras = ["uno", "dos", "cuatro"];`
 
-**Tareas:**
+**Tarea#s:**
 1.  Invierte el orden del arreglo.
 2.  Te das cuenta de que "cuatro" (ahora en pos 0) es incorrecto. Reemplázalo por "tres" usando `splice`.
 
